@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/* 1.4 Напишите фрагмент класса (группу команд), который будет присваивать
+значения 5 и 9 двум переменным, а затем третья переменная будет
+получать значение, равное сумме значений первых двух переменных.*/
+
+int a = 5, b = 9;
+int c = a + b;
+Console.WriteLine(c);
